@@ -8,6 +8,7 @@ const profile: Profile = {
   email: "keiankaserman@yahoo.com",
   githubUrl: "https://github.com/keiank",
   linkedinUrl: "https://www.linkedin.com/in/keian-k/",
+  xUrl: "https://x.com/KeianKaserman",
   locationUrl: "https://www.google.com/maps/place/Fairfax,+VA",
   locationText: "Fairfax, VA (Will Relocate)",
   resume: "/resume.pdf",
