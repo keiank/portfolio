@@ -34,3 +34,33 @@
 .header__link:hover {
   color: var(--color-blue);
 }
+
+.header__mobile-menu {
+  display: none;
+}
+
+@media (max-width: 395px) {
+  .header__brand {
+    padding: 0;
+    font-weight: 600;
+  }
+
+  .header {
+    padding: 25px 20px;
+    width: 100%;
+    background-color: var(--color-bg-primary);
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__mobile-menu {
+    display: block;
+  }
+
+  .header__hamburger-button {
+    background-color: inherit;
+    border: none;
+  }
+}
