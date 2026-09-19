@@ -1,0 +1,33 @@
+.skills {
+  background-color: var(--color-bg-secondary);
+}
+
+.skills__list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills__groups {
+  padding: 40px 0 212px 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 52px;
+}
+
+.skills__category {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.skills__items {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skills__item {
+  background-color: var(--color-bg-primary);
+  padding: 8px 13px;
+  border-radius: 8px;
+}
