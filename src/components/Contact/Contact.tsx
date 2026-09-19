@@ -34,13 +34,29 @@ export function Contact() {
       </ul>
       <ul className="contact__social-list">
         <li className="contact__social-item">
-          <a href={profile.githubUrl} target="_blank" aria-label="GitHub Profile Link">
-            <img className="contact__social-icon" src={GitHubIcon} alt="GitHub Icon" />
+          <a
+            href={profile.githubUrl}
+            target="_blank"
+            aria-label="GitHub Profile Link"
+          >
+            <img
+              className="contact__social-icon"
+              src={GitHubIcon}
+              alt="GitHub Icon"
+            />
           </a>
         </li>
         <li className="contact__social-item">
-          <a href={profile.linkedinUrl} target="_blank" aria-label="LinkedIn Profile Link">
-            <img className="contact__social-icon" src={LinkedinIcon} alt="Linkedin Icon" />
+          <a
+            href={profile.linkedinUrl}
+            target="_blank"
+            aria-label="LinkedIn Profile Link"
+          >
+            <img
+              className="contact__social-icon"
+              src={LinkedinIcon}
+              alt="Linkedin Icon"
+            />
           </a>
         </li>
         <li className="contact__social-item">
