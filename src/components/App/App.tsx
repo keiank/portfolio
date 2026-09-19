@@ -3,7 +3,7 @@ import { Header } from "../Header/Header";
 import { Hero } from "../Hero/Hero";
 import { Projects } from "../Projects/Projects";
 import { Skills } from "../Skills/Skills";
-import { Contact } from "../Contact/Contact";
+import { Footer } from "../Footer/Footer";
 
 export default function App() {
   return (
@@ -12,7 +12,7 @@ export default function App() {
       <Hero />
       <Projects />
       <Skills />
-      <Contact />
+      <Footer />
     </>
   );
 }
