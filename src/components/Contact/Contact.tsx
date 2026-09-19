@@ -3,8 +3,6 @@ import profile from "../../data/profile";
 import MailIcon from "../../assets/MailIcon.png";
 import LocationIcon from "../../assets/LocationIcon.png";
 import ResumeIcon from "../../assets/ResumeIcon.png";
-import LinkedinIcon from "../../assets/social-icon-linkedin.png";
-import XIcon from "../../assets/social-icon-x.png";
 
 export function Contact() {
   return (
@@ -12,7 +10,9 @@ export function Contact() {
       <ul className="contact__list">
         <li className="contact__item">
           <img className="contact__icon" src={MailIcon} alt="Email Icon" />
-          <a className="contact__email" href={`mailto:${profile.email}`}>{profile.email}</a>
+          <a className="contact__email" href={`mailto:${profile.email}`}>
+            {profile.email}
+          </a>
         </li>
         <li className="contact__item">
           <img
@@ -20,13 +20,23 @@ export function Contact() {
             src={LocationIcon}
             alt="Location Icon"
           />{" "}
-          <a className="contact__location" href={profile.locationUrl} target="_blank" rel="noreferrer">
+          <a
+            className="contact__location"
+            href={profile.locationUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
             {profile.locationText}
           </a>
         </li>
         <li className="contact__item contact__resume">
           <img className="contact__icon" src={ResumeIcon} alt="Resume Icon" />{" "}
-          <a className="contact__resume-text" href={profile.resume} target="_blank" download>
+          <a
+            className="contact__resume-text"
+            href={profile.resume}
+            target="_blank"
+            download
+          >
             Download my resume (PDF)
           </a>
         </li>
@@ -40,10 +50,11 @@ export function Contact() {
             aria-label="GitHub Profile Link"
           >
             <svg
-            className="contact__social-icon"
-            viewBox="0 0 52 52"
-            width="52"
-            height="52">
+              className="contact__social-icon"
+              viewBox="0 0 52 52"
+              width="52"
+              height="52"
+            >
               <circle
                 className="contact__social-link-bg"
                 cx="26"
@@ -74,10 +85,11 @@ export function Contact() {
             aria-label="LinkedIn Profile Link"
           >
             <svg
-            className="contact__social-icon"
-            viewBox="0 0 52 52"
-            width="52"
-            height="52">
+              className="contact__social-icon"
+              viewBox="0 0 52 52"
+              width="52"
+              height="52"
+            >
               <circle
                 className="contact__social-link-bg"
                 cx="26"
@@ -127,11 +139,7 @@ export function Contact() {
                 stroke="#e6e6e6"
                 stroke-width="1"
               />
-              <svg
-                x="18"
-                width="15"
-                viewBox="0 0 1200 1227"
-                >
+              <svg x="18" width="15" viewBox="0 0 1200 1227">
                 <path
                   d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"
                   fill="var(--color-text-primary)"
