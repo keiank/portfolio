@@ -6,7 +6,7 @@ export function Footer() {
     <section id="contact" className="footer">
       <h1 className="footer__heading">Get in Touch</h1>
       <p className="footer__invitation">
-        Open position? Interested in hiring me on contract?
+        Open position? Contract work?
       </p>
       <Contact />
     </section>
