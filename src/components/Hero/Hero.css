@@ -51,6 +51,12 @@
   padding: 14px 24px;
   border-radius: 8px;
   border: none;
+  text-decoration: none;
+}
+
+.hero__button:hover {
+  background-color: var(--color-hover-secondary);
+  color: var(--color-text-primary);
 }
 
 .hero__portfolio-btn {
