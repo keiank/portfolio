@@ -34,7 +34,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
               className="project-card__icon"
               src={GitHubIcon}
               alt="GitHub Icon"
-            />{" "}
+            />
             Code
           </a>
           <a
@@ -46,7 +46,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
               className="project-card__icon"
               src={ExternalLinkIcon}
               alt="External Link Icon"
-            />{" "}
+            />
             Live
           </a>
         </div>
