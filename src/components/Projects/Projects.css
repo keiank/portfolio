@@ -1,18 +1,33 @@
 .projects {
-    padding-bottom: 108px;
+  padding-bottom: 108px;
 }
 
 .projects__title {
-    font-size: 44px;
-    font-weight: 500;
-    padding-bottom: 20px;
+  font-size: 44px;
+  font-weight: 500;
+  padding-bottom: 20px;
 }
 
 .projects__list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    gap: 32px;
-    padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 32px;
+  padding: 0;
+}
+
+.projects__button-area {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.projects__show-more-btn {
+  padding: 14px 24px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--color-bg-primary);
+  border: 1px solid var(--color-blue);
+  color: var(--color-text-primary);
 }
