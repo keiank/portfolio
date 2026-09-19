@@ -1,0 +1,43 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 36px;
+}
+
+.contact__icon {
+  vertical-align: middle;
+  padding-right: 12px;
+}
+
+.contact__item {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__social-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.contact__email {
+  color: var(--color-text-primary);
+}
+
+.contact__location {
+  color: var(--color-text-secondary);
+}
+
+.contact__resume {
+  color: var(--color-blue);
+  font-weight: 600;
+}
