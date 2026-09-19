@@ -6,11 +6,13 @@ import { Skills } from "../Skills/Skills";
 import { Contact } from "../Contact/Contact";
 
 export default function App() {
-  return <>
-    <Header/>
-    <Hero/>
-    <Projects/>
-    <Skills/>
-    <Contact/>
-  </>;
+  return (
+    <>
+      <Header />
+      <Hero />
+      <Projects />
+      <Skills />
+      <Contact />
+    </>
+  );
 }
