@@ -28,6 +28,7 @@ const Tools: SkillGroup = {
     "Nebius Token Factory",
     "OpenAI API",
     "RAG",
+    "GIMP",
   ],
 };
 
