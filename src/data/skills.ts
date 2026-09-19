@@ -1,21 +1,21 @@
 import type { SkillGroup } from "../types";
 
-export const Languages: SkillGroup = {
+const Languages: SkillGroup = {
   category: "Languages",
   items: ["JavaScript", "HTML", "CSS", "TypeScript", "C", "C++"],
 };
 
-export const Frontend: SkillGroup = {
+const Frontend: SkillGroup = {
   category: "Frontend",
   items: ["React", "Vite", "Responsive Design", "Accessibility"],
 };
 
-export const Backend: SkillGroup = {
+const Backend: SkillGroup = {
   category: "Backend",
   items: ["Node.js", "Express", "MongoDB", "REST API"],
 };
 
-export const Tools: SkillGroup = {
+const Tools: SkillGroup = {
   category: "Tools",
   items: [
     "Git",
@@ -30,3 +30,5 @@ export const Tools: SkillGroup = {
     "RAG",
   ],
 };
+
+export const skills: SkillGroup[] = [Languages, Frontend, Backend, Tools];
