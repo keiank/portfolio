@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 80px;
+    color: var(--color-text-primary);
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.header__nav {
+    gap: 8px;
+}
+
+.header__brand {
+    font-size: 18px;
+}
+
+.header__link {
+    padding: 8px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
