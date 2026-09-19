@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 92px;
+}
+
+.footer__heading {
+  padding-bottom: 48px;
+}
+
+.footer__invitation {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--color-text-secondary);
+  padding-bottom: 36px;
+}
