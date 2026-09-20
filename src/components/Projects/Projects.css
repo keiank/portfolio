@@ -32,6 +32,14 @@
   color: var(--color-text-primary);
 }
 
+@media (max-width: 1064px) {
+  .projects {
+    padding: 44px;
+  }
+
+  
+}
+
 @media (max-width: 414px) {
   .projects {
     padding: 64px 20px;
