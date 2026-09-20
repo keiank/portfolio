@@ -28,6 +28,32 @@
 
 .skills__item {
   background-color: var(--color-bg-primary);
-  padding: 8px 13px;
+  padding: 8px 14px;
   border-radius: 8px;
+}
+
+@media (max-width: 395px) {
+  .skills {
+    padding: 64px 20px;
+  }
+
+  .skills__title {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .skills__groups {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .skills__category {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .skills__item {
+    font-size: 14px;
+  }
 }
