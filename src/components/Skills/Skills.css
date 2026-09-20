@@ -32,7 +32,7 @@
   border-radius: 8px;
 }
 
-@media (max-width: 395px) {
+@media (max-width: 414px) {
   .skills {
     padding: 64px 20px;
   }
