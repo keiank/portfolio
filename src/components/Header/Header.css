@@ -49,6 +49,35 @@
   display: none;
 }
 
+@media (max-width: 1064px) {
+  .header {
+    padding: 44px;
+  }
+}
+
+@media (max-width: 602px) {
+  .header__mobile-menu {
+    display: block;
+  }
+
+  .header__hamburger-button {
+    display: block;
+    background-color: inherit;
+    border: none;
+    padding: 0;
+  }
+
+  .mobile-divider {
+    display: block;
+    color: #eef4ff;
+    size: 1px;
+  }
+
+  .header__nav {
+    display: none;
+  }
+}
+
 @media (max-width: 414px) {
   .header__brand {
     padding: 0;
@@ -59,25 +88,5 @@
     padding: 25px 20px;
     width: 100%;
     background-color: var(--color-bg-primary);
-  }
-
-  .header__nav {
-    display: none;
-  }
-
-  .header__mobile-menu {
-    display: block;
-  }
-
-  .header__hamburger-button {
-    display: block;
-    background-color: inherit;
-    border: none;
-  }
-
-  .mobile-divider {
-    display: block;
-    color: #eef4ff;
-    size: 1px;
   }
 }
