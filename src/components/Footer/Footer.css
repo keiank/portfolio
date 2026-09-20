@@ -16,3 +16,20 @@
   color: var(--color-text-secondary);
   padding-bottom: 36px;
 }
+
+@media (max-width: 395px) {
+  .footer {
+    padding: 64px 20px;
+  }
+
+  .footer__heading {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 32px;
+  }
+
+  .footer__invitation {
+    font-size: 14px;
+    padding-bottom: 24px;
+  }
+}

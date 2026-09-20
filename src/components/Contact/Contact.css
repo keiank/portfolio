@@ -69,3 +69,14 @@
   text-decoration: none;
   color: var(--color-text-secondary);
 }
+
+@media (max-width: 395px) {
+  .contact__list {
+    padding-bottom: 24px;
+  }
+
+  .contact__item {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
