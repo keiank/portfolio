@@ -17,6 +17,20 @@
   padding-bottom: 36px;
 }
 
+@media (max-width: 1064px) {
+  .footer {
+    padding: 44px 44px;
+  }
+
+  .footer__heading {
+    text-align: center;
+  }
+
+  .footer__invitation {
+    text-align: center;
+  }
+}
+
 @media (max-width: 414px) {
   .footer {
     padding: 64px 20px;
