@@ -10,6 +10,7 @@
 }
 
 .header__nav {
+  display: flex;
   gap: 8px;
 }
 
@@ -17,6 +18,7 @@
   font-size: 18px;
   text-decoration: none;
   color: var(--color-text-primary);
+  line-height: 180%;
 }
 
 .header__link {
@@ -36,6 +38,14 @@
 }
 
 .header__mobile-menu {
+  display: none;
+}
+
+.mobile-divider {
+  display: none;
+}
+
+.header__hamburger-button {
   display: none;
 }
 
@@ -60,7 +70,14 @@
   }
 
   .header__hamburger-button {
+    display: block;
     background-color: inherit;
     border: none;
+  }
+
+  .mobile-divider {
+    display: block;
+    color: #eef4ff;
+    size: 1px;
   }
 }
