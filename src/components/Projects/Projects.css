@@ -36,8 +36,13 @@
   .projects {
     padding: 44px;
   }
+}
 
-  
+@media (max-width: 1002px) {
+  .projects__list {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 414px) {

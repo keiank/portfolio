@@ -72,6 +72,12 @@
   padding-right: 6px;
 }
 
+@media (max-width: 1002px) {
+  .project-card__image-area {
+    height: auto;
+  }
+}
+
 @media (max-width: 414px) {
   .project-card__image-area {
     width: 100%;
