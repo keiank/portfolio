@@ -71,6 +71,34 @@
   color: var(--color-text-primary);
 }
 
+@media (max-width: 1064px) {
+  .hero {
+
+  }
+}
+
+@media (max-width: 738px) {
+  .hero {
+    padding: 44px;
+  }
+
+  .hero__greeting {
+    font-weight: 500;
+  }
+
+  .hero__name {
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+  }
+}
+
+@media (max-width: 545px) {
+  .hero__buttons {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 414px) {
   .hero {
     padding: 64px 20px;
