@@ -71,3 +71,22 @@
   vertical-align: middle;
   padding-right: 6px;
 }
+
+@media (max-width: 395px) {
+  .project-card__image-area {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-card__content {
+    padding: 20px;
+  }
+
+  .project-card__text {
+    padding-bottom: 20px;
+  }
+
+  .project-card__links {
+    gap: 16px;
+  }
+}

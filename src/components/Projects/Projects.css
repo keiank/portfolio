@@ -31,3 +31,20 @@
   border: 1px solid var(--color-blue);
   color: var(--color-text-primary);
 }
+
+@media (max-width: 395px) {
+  .projects {
+    padding: 64px 20px;
+  }
+
+  .projects__title {
+    font-size: 32px;
+  }
+
+  .projects__list {
+    display: flex;
+    flex-direction: column;
+    /* align-items: stretch; */
+    gap: 24px;
+  }
+}
