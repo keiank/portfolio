@@ -1,6 +1,8 @@
 import "./Header.css";
 import profile from "../../data/profile";
 import { useState } from "react";
+import { HeaderNav } from "./HeaderNav";
+import { Contact } from "../Contact/Contact";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,25 +13,15 @@ export function Header() {
         <a className="header__brand" href="#home">
           {profile.name}
         </a>
-        <nav className="header__nav">
-          <a href="#home" className="header__link">
-            Home
-          </a>
-          <a href="#skills" className="header__link">
-            Skills
-          </a>
-          <a href="#projects" className="header__link">
-            Projects
-          </a>
-          <a href="#contact" className="header__link">
-            Contact
-          </a>
-        </nav>
+        <div className={`header__menu${isOpen ? " header__menu_open" : ""}`}>
+          <HeaderNav isOpen={isOpen} onNavigate={() => setIsOpen(false)} />
+          <Contact />
+        </div>
         <button
           aria-expanded={isOpen}
           aria-controls="header__nav"
           aria-label="Toggle navigation menu"
-          onClick={() => setTimeout(() => setIsOpen(!isOpen), 100)}
+          onClick={() => setIsOpen((open) => !open)}
           className="header__hamburger-button"
           type="button"
         >
