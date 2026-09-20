@@ -18,7 +18,11 @@ export function HeaderNav({ isOpen, onNavigate }: HeaderNavProps) {
       <a href="#projects" className="header__link" onClick={onNavigate}>
         Projects
       </a>
-      <a href="#contact" className="header__link" onClick={onNavigate}>
+      <a
+        href="#contact"
+        className="header__link header__contact-link"
+        onClick={onNavigate}
+      >
         Contact
       </a>
     </nav>

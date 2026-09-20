@@ -97,6 +97,10 @@
     font-size: 28px;
   }
 
+  .header__menu_open .header__contact-link {
+    display: none;
+  }
+
   .header__menu_open .contact {
     display: flex;
     padding-bottom: 48px;
