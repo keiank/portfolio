@@ -31,12 +31,7 @@ export function Contact() {
         </li>
         <li className="contact__item contact__resume">
           <img className="contact__icon" src={ResumeIcon} alt="Resume Icon" />{" "}
-          <a
-            className="contact__resume-text"
-            href={profile.resume}
-            target="_blank"
-            download
-          >
+          <a className="contact__resume-text" href={profile.resume} download>
             Download my resume (PDF)
           </a>
         </li>
@@ -47,6 +42,7 @@ export function Contact() {
             className="contact__social-link"
             href={profile.githubUrl}
             target="_blank"
+            rel="noreferrer"
             aria-label="GitHub Profile Link"
           >
             <svg
@@ -82,6 +78,7 @@ export function Contact() {
             className="contact__social-link"
             href={profile.linkedinUrl}
             target="_blank"
+            rel="noreferrer"
             aria-label="LinkedIn Profile Link"
           >
             <svg
@@ -123,7 +120,12 @@ export function Contact() {
           </a>
         </li>
         <li className="contact__social-item">
-          <a href={profile.xUrl} target="_blank" aria-label="X Profile Link">
+          <a
+            href={profile.xUrl}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="X Profile Link"
+          >
             <svg
               className="contact__social-icon"
               viewBox="0 0 52 52"
