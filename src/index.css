@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --color-text-primary: #121212;
+  --color-text-secondary: #808080;
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #c5e0fc;
+  --color-blue: #3f96f3;
+  --color-hover-secondary: #c5e0fc;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body,
+div {
+  padding: 0;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 500;
+}
+
+section {
+  padding: 80px 80px 0 80px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
